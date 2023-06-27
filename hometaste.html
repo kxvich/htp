@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hometaste.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fjalla+One&family=Poppins:wght@100;200;300;400;600;700&family=Signika:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>hometaste</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navigation">
+            <input class="navigation-checkbox" type="checkbox" name="menu" id="navi-toggle">
+            <label class="navigation-button" for="navi-toggle">
+                <span class="navigation-menu">menu</span>
+                <span class="navigation-close"><i class="fa-solid fa-x"></i></span>
+            </label>
+            <div class="navigation-background">&nbsp;</div>
+
+            <nav class="navigation-nav">
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a class="navigation-links" href="">boiled</a></li>
+                    <li class="navigation-item"><a class="navigation-links" href="">fried</a></li>
+                    <li class="navigation-item"><a class="navigation-links" href="">roasted</a></li>
+                    <li class="navigation-item"><a class="navigation-links" href="">grilled</a></li>
+                    <li class="navigation-item"><a class="navigation-links" href="">cooked</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="header__logo-box">
+            <img src="/images/Home_taste__logo (1).png" alt="" class="header-logo">
+        </div>
+
+        <div class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-navigation-items header-navigation-items-1"><a class="header-navigation-link" href="">home</a></li>
+                <li class="header-navigation-items header-navigation-items-2"><a class="header-navigation-link" href="#services">our services</a></li>
+                <li class="header-navigation-items header-navigation-items-3"><a class="header-navigation-link" href="">about</a></li>
+                <!-- <li class="header-navigation-items header-navigation-items-4"><a class="header-navigation-link menu btn" href="">menu</a></li> -->
+                <!-- <li class="header-navigation-items header-navigation-items-4"><button class="button-menu"><a class="btn-menu" href="">menu</a></button></li> -->
+            </ul>
+        </div>
+
+        <div class="header__text-box" id="close">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">home for</span>
+                <span class="happy">happy</span>
+                <span class="heading-primary-sub">taste buds</span>
+            </h1>
+            <p class="paragraph">our meals are made with the best ingredients and experience which results in better tasting meals guaranteed to make you happy.</p>
+            <a href="#popup" class="btn" >reserve a table &rarr;</a>
+        </div>
+        
+
+        <div class="header-compostion">
+            <img class="header-img header-img-1" src="/images/header-image-crop.png" alt="">
+            <!-- <img class="header-img header-img-2" src="/images/pexels-polina-tankilevitch-4519011-removebg-preview.png" alt=""> -->
+        </div>
+    </header>
+
+    <main>
+        <section class="section-next">
+            <div class="u-center-text u-margin-bottom-small">
+                <h2 class="heading-secondary">our services</h2>
+            </div>
+
+            <div class="row" id="services">
+                <div class="features">
+                    <div class="features-box features-box-1">
+                        <i class="fa-solid fa-bowl-food features-icon"></i>
+                        <h3 class="heading-tertiary">best meals at affordable prices</h3>
+                        <p class="features-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dicta culpa at incidunt perspiciatis, necessitatibus adipisci natus vel est libero.</p>
+                    </div>
+                    <div class="features-box features-box-2">
+                        
+                        <i class="fa-solid fa-chair features-icon"></i>
+                        <h3 class="heading-tertiary">reservations</h3>
+                        <p class="features-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dicta culpa at incidunt
+                            perspiciatis, necessitatibus adipisci natus vel est libero.</p>
+                    </div>
+                    <div class="features-box features-box-3">
+                        <i class="fa-solid fa-person-biking features-icon"></i>
+                        <h3 class="heading-tertiary">food delivery</h3>
+                        <p class="features-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dicta culpa at incidunt
+                            perspiciatis, necessitatibus adipisci natus vel est libero.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-frequently">
+
+        </section>
+    </main>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <a href="#close" class="popup-close">&times;</a>
+
+            <div class="popup__card">
+                <div class="popup__card-side">
+                    <div class="popup__card-side-front">front</div>
+                    <div class="popup__card-side-back">back</div>
+                </div>
+
+                <div class="popup__card-side">
+                    <div class="popup__card-side-front">front</div>
+                    <div class="popup__card-side-back">back</div>
+                </div>
+
+                <div class="popup__card-side">
+                    <div class="popup__card-side-front">front</div>
+                    <div class="popup__card-side-back">back</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
